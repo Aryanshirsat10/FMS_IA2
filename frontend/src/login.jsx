@@ -4,7 +4,8 @@ const styles = {
   appContainer: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'flex-start',
+    alignItems: 'center',
+    justifyContent: 'center',
     minHeight: '100vh',
     maxHeight: '100vh',
     overflow: 'hidden',
@@ -17,6 +18,7 @@ const styles = {
     left: '10px',
     display: 'flex',
     alignItems: 'center',
+    fontSize: '2em'
   },
   bookIcon: {
     marginRight: '10px',
@@ -50,10 +52,14 @@ const styles = {
     lineHeight: '1.1',
     marginBottom: '20px',
     marginTop: '0px',
+    textAlign: 'center',
+    fontWeight:'bold'
   },
   loginForm: {
     display: 'flex',
     flexDirection: 'column',
+    alignItems: 'center', // Center-aligns the input boxes
+    justifyContent: 'center', // Vertically centers the input boxes
   },
   formGroup: {
     marginBottom: '15px',
@@ -62,6 +68,7 @@ const styles = {
     fontSize: '1.1em',
     marginBottom: '5px',
     display: 'block',
+    textAlign: 'center',
   },
   formInput: {
     padding: '10px',
@@ -80,6 +87,7 @@ const styles = {
     cursor: 'pointer',
     transition: 'border-color 0.25s',
     color: 'white',
+    width:'100%'
   },
 };
 

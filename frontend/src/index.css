@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-image: url('/book.jpg'); /* Background image for the entire page */
@@ -70,6 +68,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Centering the containers */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
